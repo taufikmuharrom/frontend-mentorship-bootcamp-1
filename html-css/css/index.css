@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Edu NSW ACT Hand Pre', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    scroll-behavior: smooth;
+}
+.footer-year {
+    text-align: right;
+}
+
