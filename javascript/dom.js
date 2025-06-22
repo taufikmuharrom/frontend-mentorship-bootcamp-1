@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // 1. Selecting Elements
   // Different ways to select elements
   const mainTitle = document.getElementById('main-title');
+  if(mainTitle){
+    console.log('mainTitle',mainTitle);
+  }
   const description = document.querySelector('.description');
   const listItems = document.querySelectorAll('#item-list li');
   const itemList = document.getElementById('item-list');
@@ -14,18 +17,18 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // 2. Modifying Content and Attributes
   // Change text content
-//   mainTitle.textContent = 'DOM Manipulation is Fun!';
+  mainTitle.textContent = 'EDITED!';
   
   // Change HTML content
-//   description.innerHTML = 'This paragraph now has <strong>bold text</strong>.';
+  description.innerHTML = 'This paragraph now has <strong>bold text</strong>.';
   
   // Add/modify attributes
-//   mainTitle.style.color = 'blue';
-//   mainTitle.style.textAlign = 'center';
-//   description.setAttribute('data-modified', 'true');
+  mainTitle.style.color = 'blue';
+  mainTitle.style.textAlign = 'center';
+  description.setAttribute('data-modified', 'true');
   
   // Add/remove CSS classes
-//   description.classList.add('highlight');
+  description.classList.add('highlight');
   
   // 3. Creating and Appending Elements
   // Create a new element
